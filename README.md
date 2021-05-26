@@ -1,6 +1,4 @@
-# E-Commerce-Back-End
-
-![Header](./images/banner.png)
+![Header](./assets/images/banner.png)
 
 [![Github license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/KorolyovaLara/E-Commerce-Back-End/blob/main/LICENSE)
 
