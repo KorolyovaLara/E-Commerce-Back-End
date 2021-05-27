@@ -40,33 +40,32 @@ This application creates a database using mySQL with models and associations.
 
 ### _Demo_
 
-The screenshots below show this application previews:
+The screenshots and videos below show this application previews:
 
-![Preview 1](./images/preview1.png)
+- Installation [Demo](https://drive.google.com/file)
 
-![Preview 2](./images/preview2.png)
+![Preview 1](./assets/images/terminal.png)
+
+- Usage [Demo](https://drive.google.com/file)
+
+![Postman Preview](./assets/images/postman.png)
 
 ### _Installation_
 
 1. Download or clone repository.
 2. [**Node.js**](https://nodejs.org/en/about/) and [**MySQL Workbench**](https://dev.mysql.com/doc/workbench/en/) are required to run the application.
-3. Run `npm install` to install the required npm packages
-
-   `npm install express sequelize mysql2`
-
-4. In the root of the application, create `.env` file and enter the following:
+3. Run `npm install` in the Terminal to install the required npm packages
+4. In the root of the application, create `.env` file and enter the following details for your MySQL:
 
    `DB_NAME=ecommerce_db`
 
-   `DB_USER=`**<your username**
+   `DB_USER=`**your username**
 
    `DB_PASSWORD=`**your password**
 
 5. Open up MySQL shell and input:
 
    `source db/schema.sql`
-
-   `use ecommerce_db`
 
 6. Run the following in the Terminal to seed test data:
 
@@ -82,7 +81,9 @@ The screenshots below show this application previews:
 
   `node server.js`
 
-- Open up Postman or Insomnia core to GET, POST, PUT and DELETE from different routes.
+- Open up [**Postman**](https://www.postman.com/) or [**Insomnia**](https://insomnia.rest/) to GET, POST, PUT and DELETE from different routes
+
+- Or navigate to `http://localhost:3001/` in your browser
 
 - Enjoy!
 
@@ -101,7 +102,7 @@ Please make sure to update tests as appropriate, if applicable.
 
 Copyright (c) [Larysa Korolyova](https://www.linkedin.com/in/korolyova/). All rights reserved.
 
-Licensed under the [MIT](https://github.com/KorolyovaLara/README-Generator/blob/main/LICENSE) license.
+Licensed under the [MIT](https://github.com/KorolyovaLara/E-Commerce-Back-End/blob/main/LICENSE) license.
 
 ---
 
@@ -109,7 +110,7 @@ Licensed under the [MIT](https://github.com/KorolyovaLara/README-Generator/blob/
 
 Quote that recently inspired me:
 
-> You always pass failure on the way to success. -_Mickey Rooney_
+> Happiness is not the absence of problems, it’s the ability to deal with them. -_Steve Maraboli_
 
 ---
 
