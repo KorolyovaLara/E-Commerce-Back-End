@@ -48,15 +48,41 @@ The screenshots below show this application previews:
 
 ### _Installation_
 
-1. Download or clone repository
-2. [**Node.js**](https://nodejs.org/en/about/) is required to run the application
+1. Download or clone repository.
+2. [**Node.js**](https://nodejs.org/en/about/) and [**MySQL Workbench**](https://dev.mysql.com/doc/workbench/en/) are required to run the application.
 3. Run `npm install` to install the required npm packages
+
+   `npm install express sequelize mysql2`
+
+4. In the root of the application, create `.env` file and enter the following:
+
+   `DB_NAME=ecommerce_db`
+
+   `DB_USER=`**<your username**
+
+   `DB_PASSWORD=`**your password**
+
+5. Open up MySQL shell and input:
+
+   `source db/schema.sql`
+
+   `use ecommerce_db`
+
+6. Run the following in the Terminal to seed test data:
+
+   `npm run seed`
 
 ### _Usage_
 
-- To start using the application, open your browser and go to
+- To start using the application, input the following in your Terminal
 
-  `http://localhost:3000/`
+  `npm start`
+
+  or
+
+  `node server.js`
+
+- Open up Postman or Insomnia core to GET, POST, PUT and DELETE from different routes.
 
 - Enjoy!
 
